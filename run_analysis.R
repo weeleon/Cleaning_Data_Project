@@ -191,7 +191,7 @@ setwd("./tidy-data")
 write.csv(tidyData2,file="tidy-MEANS.csv",row.names=FALSE)
 
 #drop the column names into a file called "tidy-ColumnNames.txt" in the tidy data folder
-write.table(names(tidyData2),file="tidy-ColumnNames.txt",col.names=F,row.names=F,quote=F)
+write.table(names(tidyData2),file="tidy-ColumnCodeBook.txt",col.names=F,row.names=F,quote=F)
 
 #drop the download date into a file called "tidy-DownloadDate.txt" in the tidy data folder
 write.table(dateDownloaded,file="tidy-DownloadDate.txt",col.names=F,row.names=F,quote=F)
